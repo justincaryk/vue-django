@@ -1,19 +1,18 @@
 
 
-#### Requirements
+### Requirements
 
 - [Install python](https://www.python.org/downloads/)
-- Setup db - TODO
+- [TODO: add db](https://docs.djangoproject.com/en/5.1/topics/install/#get-your-database-running)
 
 
-#### Setup
+### Setup
 
 1. initialize .venv
 
 ```bash
 python -m venv .venv
 ```
-
 2. activate the virtual environment
 
 ```bash
@@ -32,7 +31,7 @@ deactivate
 pip3 install -r requirements.txt
 ```
 
-#### adding new packages
+### Adding new packages
 
 ```bash
 python3 -m pip install [package_name]
